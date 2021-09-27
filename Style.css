@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #051622;
+    color: #1BA098;
+    text-size-adjust: 15px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px; 
+    linear-gradient(180deg, 
+    rgba(0,0,0,0.3) 0%, 
+    rgba(0,0,0,0.8) 100%);
+    
+}
+.logo {
+    cursor: pointer;
+    margin-left: 0;
+    padding: 0;
+}
+
+.main-navigation {
+    list-style: none;
+    cursor: pointer;
+}
+.main-navigation li {
+    display: inline-block;
+    padding: 0px 50px;
+    justify-content: space-around;
+}
+button {
+    padding: 9px 25px;
+    color: #DEB992;
+    background-color: transparent;
+    border: 2px solid #DEB992;
+    cursor: pointer;
+}
+.Container {
+    background-image:   linear-gradient(180deg, 
+                        rgba(0,0,0,0.3) 0%, 
+                        rgba(0,0,0,0.8) 100%),          
+                        url("https://images.unsplash.com/photo-1572996398321-5c4b5e687548?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+                        background-size: cover;
+                        background-repeat: no repeat;
+                        background-position: top center;
+                        height: 80vh;
+
+                        
+}
+.About {
+    color: #DEB992;
+    display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 30px;
+}
+.About h1 {
+    font-size: 72px;
+}
+.Quote {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 4rem;
+}
+.Footer-Container {
+    background-color: #010E12;
+    padding: 4rem;
+}
+.Footer1 {
+    width: 80%;
+    color: #1BA098;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.Footer-Heading {
+   display: flex;
+   flex-direction: column;
+   margin-right: 4rem;
+}
+.Footer-Heading a{
+    text-decoration: none;
+    color: #1BA098;
+    
+
